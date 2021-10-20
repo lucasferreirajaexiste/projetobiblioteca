@@ -1,0 +1,269 @@
+/* /-----------------------------------------------------------
+----------------Resetando os estilos do HTML-----------------
+-----------------------------------------------------------/ */
+
+
+body,
+h1,
+h2
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family:  Helvetica, Arial, sans-serif;
+  color: #222222;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(214, 214, 176);
+    /* position: fixed;
+    width: 100%; */
+    /* fixar o menu e fazer ele ocupar toda estenção da pagina */
+  
+}
+header ul li{
+    display: inline-block;
+    padding: 34px 15px;
+    font-size: 1.2em;
+ 
+}
+header ul li a{
+    color: rgba(0, 0, 0, 0.637);
+    border-radius: 10%;
+    /* border: 1px solid black;
+    padding: 10px; */
+}
+
+.logo{
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 3em;
+    padding: 9px 15px;
+   
+}
+.principal{
+   text-align: center;
+}
+.titulo h1{
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 2em;
+    padding: 15px;
+}
+.titulo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding-bottom: 15px;
+}
+.img{
+    margin-left: auto;
+    margin-right: auto;
+    /* deixa a imagem centralizada */
+    width: 900px;
+    height: 600px;
+ 
+   
+   
+}
+
+footer  p{
+   
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* position: fixed; */
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    clear: both;
+}
+article h2{
+  text-align:center;
+  padding: 15px;
+  font-size: 28px;
+  font-family:Arial, Helvetica, sans-serif
+}
+table{
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th,td{
+  padding: 15px 10px;
+  text-align: left;
+}
+thead tr{
+  border-bottom: 3px solid rgb(177, 123, 150);
+}
+tbody tr:hover{
+  background-color: rgba(153, 125, 138, 0.212);
+}
+tfoot{
+  background-color: rgba(152, 128, 153, 0);
+  color: rgb(207, 91, 149);
+  font-weight: bold;
+  font-style: italic;
+  clear: both;
+  }
+  .titulo div{
+    display:inline-block;
+    /* float: inline-end; */
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+  }
+  footer{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgba(214, 214, 176, 0.609);
+    /* position: fixed;
+    width: 100%; */
+    /* fixar o menu e fazer ele ocupar toda estenção da pagina */
+    clear: both;
+   margin-top: 10px;
+
+  
+}
+/* footer ul li{
+    display: inline-block;
+    padding: 34px 15px;
+    font-size: 1.2em;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* Float four columns side by side */
+.column {
+
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  padding-top: 15px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+  display: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #b6c0a57a;
+}
+.card p{
+  padding-top: 12px;
+}
+.card h3{
+  margin:0px;
+}
+
+
+.img1{
+ 
+padding: 30px 50px;
+
+}
+.button{
+  padding: 10px;
+
+}
+.button input{
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: rgb(240, 235, 229);
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #756177;
+  /* text-align: center; */
+  
+}
+.head h2{
+  font-size: 40px;
+  
+}
+.subt{
+  display:flex;
+  padding-left: 15px;
+  /* justify-content: space-between; */
+}
+legend{
+  padding-left: 15px;
+font-size: 20px;
+padding-top: 10px;
+}
+form{
+  padding-left: 15px;
+ 
+  margin-left: 0px;
+}
+form p{
+  padding-top: 6px;
+  background-color: beige
+  
+}
+form p input{
+  padding: 3px 55px;
+}
+.formulario{
+  width: 99%;
+ text-align: center;
+}
+
+
+
